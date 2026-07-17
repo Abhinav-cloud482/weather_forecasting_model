@@ -1,21 +1,19 @@
 # weather_forecasting
 **Weather Forecasting Model** — A machine learning project that predicts next-day temperature using historical weather data. It applies Linear Regression with key weather parameters like temperature, humidity, wind speed, and precipitation, evaluates model accuracy, and visualizes actual vs predicted results.
 
-# 🌦️ Weather Forecasting Using Machine Learning
+## Weather Forecasting Using Machine Learning
 
 A machine learning-based weather forecasting system that predicts the next day's temperature using historical weather data. The project uses **Linear Regression** to analyze relationships between temperature, humidity, wind speed, and precipitation to generate accurate temperature predictions.
 
----
 
-## 📌 Project Overview
+## Project Overview
 
 Weather forecasting plays an important role in planning and decision-making across various industries. This project demonstrates a simple machine learning approach for predicting future temperature values from historical weather patterns.
 
 The model is trained using weather parameters and evaluated using regression performance metrics. It also provides a visualization comparing actual and predicted temperatures.
 
----
 
-## 🚀 Features
+## Features
 
 - Generate synthetic historical weather datasets
 - Train a Linear Regression prediction model
@@ -26,18 +24,16 @@ The model is trained using weather parameters and evaluated using regression per
 - Compare actual vs predicted temperatures visually
 - Simple and beginner-friendly ML workflow
 
----
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Python**
 - **Pandas** – Data processing and analysis
 - **Scikit-learn** – Machine learning model development
 - **Matplotlib** – Data visualization
 
----
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 Weather-Forecasting/
@@ -49,13 +45,12 @@ Weather-Forecasting/
 └── README.md                  # Project documentation
 ```
 
----
 
-## 📊 Dataset Description
+## Dataset Description
 
 The dataset contains historical weather observations used for training the machine learning model.
 
-### Features:
+### Features :
 
 | Feature | Description |
 |---------|-------------|
@@ -65,14 +60,13 @@ The dataset contains historical weather observations used for training the machi
 | Precipitation | Rainfall amount |
 | Next Day Temperature | Target value to predict |
 
----
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/weather-forecasting.git
+git clone https://github.com/Abhinav-cloud482/weather-forecasting.git
 ```
 
 ### 2. Navigate to the project directory
@@ -87,13 +81,12 @@ cd weather-forecasting
 pip install -r requirements.txt
 ```
 
----
 
-## ▶️ How to Run
+## How to Run
 
-### Step 1: Generate Dataset
+### Step 1 : Generate Dataset
 
-Run the dataset generator:
+Run the dataset generator :
 
 ```bash
 python dataset_generator.py
@@ -103,22 +96,21 @@ This will create the required `temprature.csv` dataset.
 
 ### Step 2: Train and Test the Model
 
-Run the forecasting model:
+Run the forecasting model :
 
 ```bash
 python weather_forecasting.py
 ```
 
-The program will:
+The program will :
 - Load historical weather data
 - Train a Linear Regression model
 - Evaluate model accuracy
 - Display actual vs predicted temperature values
 - Predict the next day's temperature
 
----
 
-## 🧠 Machine Learning Workflow
+## Machine Learning Workflow
 
 1. Load weather dataset
 2. Select input features:
@@ -132,11 +124,10 @@ The program will:
 6. Evaluate model performance
 7. Visualize prediction results
 
----
 
-## 📈 Model Evaluation
+## Model Evaluation
 
-The model performance is measured using:
+The model performance is measured using :
 
 ### Mean Squared Error (MSE)
 Measures the average squared difference between actual and predicted temperatures.
@@ -146,9 +137,8 @@ Indicates how well the model explains variations in temperature data.
 
 Higher R² values represent better prediction performance.
 
----
 
-## 📷 Output Visualization
+## Output Visualization
 
 The project generates a comparison graph showing:
 
@@ -157,11 +147,10 @@ The project generates a comparison graph showing:
 
 This helps analyze the accuracy and behavior of the forecasting model.
 
----
 
-## 🔮 Example Prediction
+## Example Prediction
 
-Given weather conditions:
+Given weather conditions :
 
 ```
 Temperature: 30°C
@@ -172,9 +161,8 @@ Precipitation: 0
 
 The trained model predicts the expected temperature for the following day.
 
----
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Integrate real-time weather APIs
 - Use larger real-world datasets
@@ -185,14 +173,14 @@ The trained model predicts the expected temperature for the following day.
 - Add multi-day forecasting capability
 - Develop a web-based weather prediction interface
 
----
 
-## 👨‍💻 Author
 
-**Abhinav Dixit**
-
----
-
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
+
+
+## Author
+
+**Abhinav Dixit**
+GitHub: [Abhinav Dixit](https://github.com/Abhinav-cloud482)
